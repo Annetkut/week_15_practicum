@@ -238,9 +238,8 @@ console.log('Количество введенных чисел:', i3);
 // Напишите функцию, которая изменит фоновый цвет всех элементов <h4> на странице на синий цвет
 const myH4s = document.querySelectorAll('h4');
 myH4s.forEach(function (h4) {
-    h4.style.color = 'blue';
+    h4.style.backgroundColor = 'blue';
 });
-
 
 
 //Задание 24
